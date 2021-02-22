@@ -5,6 +5,7 @@ var  express 			=  require("express"),
 	 logger				=  require('morgan');
 
 var app = express();
+
 mongoose.connect('mongodb://localhost/edison-2');
 
 
